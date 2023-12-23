@@ -1,5 +1,6 @@
 package io.github.itscre3per;
 
+import io.github.itscre3per.item.ModItemGroups;
 import io.github.itscre3per.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class Universal implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
