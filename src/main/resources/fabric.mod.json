@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "universal",
+	"version": "${version}",
+	"name": "Universal",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/universal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.itscre3per.Universal"
+		],
+		"client": [
+			"io.github.itscre3per.UniversalClient"
+		],
+		"fabric-datagen": [
+			"io.github.itscre3per.UniversalDataGenerator"
+		]
+	},
+	"mixins": [
+		"universal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
