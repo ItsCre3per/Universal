@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 public class Universal implements ModInitializer {
 	public static final String MOD_ID = "universal";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+    public static final Logger LOGGER = LoggerFactory.getLogger("Universal");
 
 	@Override
 	public void onInitialize() {

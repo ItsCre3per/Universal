@@ -3,13 +3,13 @@
 	"id": "universal",
 	"version": "${version}",
 	"name": "Universal",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod that adds a procedurally generated galaxy (and potentially universe) to Minecraft.",
 	"authors": [
-		"Me!"
+		"ItsCre3per"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://ItsCre3per.github.io",
+		"sources": "https://github.com/ItsCre3per/Universal"
 	},
 	"license": "ARR",
 	"icon": "assets/universal/icon.png",
