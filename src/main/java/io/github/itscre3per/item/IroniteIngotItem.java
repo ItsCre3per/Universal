@@ -10,14 +10,15 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class RawIroniteItem extends Item {
-    public RawIroniteItem(Settings settings) {
+public class IroniteIngotItem extends Item {
+
+    public IroniteIngotItem(Settings settings) {
         super(settings);
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        Universal.formatTooltips("item.universal.raw_ironite.tooltip", tooltip);
+        Universal.formatTooltips("item.universal.ironite_ingot.tooltip", tooltip);
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

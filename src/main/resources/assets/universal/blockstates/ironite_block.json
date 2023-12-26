@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "universal:block/ironite_block"
+    }
+  }
+}

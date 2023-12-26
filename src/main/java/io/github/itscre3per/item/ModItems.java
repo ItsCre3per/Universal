@@ -8,8 +8,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item RAW_IRONITE = registerItem("raw_ironite", new Item(new FabricItemSettings()));
-    public static final Item IRONITE_INGOT = registerItem("ironite_ingot", new RawIroniteItem(new FabricItemSettings()));
+    public static final Item RAW_IRONITE = registerItem("raw_ironite", new RawIroniteItem(new FabricItemSettings()));
+    public static final Item IRONITE_INGOT = registerItem("ironite_ingot", new IroniteIngotItem(new FabricItemSettings()));
 
     // Used to register an item ^^
     private static Item registerItem(String name, Item item) {

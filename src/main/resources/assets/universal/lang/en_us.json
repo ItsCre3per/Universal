@@ -1,7 +1,10 @@
 {
   "item.universal.raw_ironite": "Raw Ironite",
-  "item.universal.raw_ironite.tooltip": "§5§oAn unrefined version of Ironite. It can be refined through smelting.",
+  "item.universal.raw_ironite.tooltip": "§5§oAn unrefined version of Ironite.\n§5§oIt can be refined through smelting.",
   "item.universal.ironite_ingot": "Ironite Ingot",
+  "item.universal.ironite_ingot.tooltip": "§5§oA refined version of Ironite,\n§5§omade from iron and netherite.",
+
+  "block.universal.ironite_block": "Block of Ironite",
 
   "itemgroup.mod_materials": "Universal: Materials"
 }

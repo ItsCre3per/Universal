@@ -1,6 +1,7 @@
 package io.github.itscre3per.item;
 
 import io.github.itscre3per.Universal;
+import io.github.itscre3per.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,6 +17,7 @@ public class ModItemGroups {
                             new ItemStack(ModItems.IRONITE_INGOT)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.RAW_IRONITE);
                         entries.add(ModItems.IRONITE_INGOT);
+                        entries.add(ModBlocks.IRONITE_BLOCK);
                     })).build());
     public static void registerItemGroups() {
         Universal.LOGGER.info("Registering mod item groups for " + Universal.MOD_ID);
